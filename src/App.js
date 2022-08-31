@@ -14,7 +14,7 @@ import service3 from './images/service-3.jpg';
 import logo from './images/logo.jpg';
 
 function App() {
-  const [products, setProducts] = useState([
+  const [products] = useState([
     {
       id: 1,
       name: "Pie Susu Original",
@@ -47,7 +47,7 @@ function App() {
     },
   ])
 
-  const [services, setServices] = useState([
+  const [services] = useState([
     {
       id: 1,
       title: "Home Made",
