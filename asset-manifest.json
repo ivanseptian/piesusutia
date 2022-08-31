@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/piesusutia/static/css/main.0a80a942.css",
-    "main.js": "/piesusutia/static/js/main.bda13bbe.js",
+    "main.js": "/piesusutia/static/js/main.890d3b71.js",
     "static/media/promotion.jpg": "/piesusutia/static/media/promotion.805c95cc960c12e72025.jpg",
     "static/media/carousel-1.jpg": "/piesusutia/static/media/carousel-1.e61bca0d284d35f718ac.jpg",
     "static/media/header.jpg": "/piesusutia/static/media/header.31ae1c0e3cc14fadd7ad.jpg",
@@ -14,10 +14,10 @@
     "static/media/portfolio-4.jpg": "/piesusutia/static/media/portfolio-4.2d432010486994c11f47.jpg",
     "index.html": "/piesusutia/index.html",
     "main.0a80a942.css.map": "/piesusutia/static/css/main.0a80a942.css.map",
-    "main.bda13bbe.js.map": "/piesusutia/static/js/main.bda13bbe.js.map"
+    "main.890d3b71.js.map": "/piesusutia/static/js/main.890d3b71.js.map"
   },
   "entrypoints": [
     "static/css/main.0a80a942.css",
-    "static/js/main.bda13bbe.js"
+    "static/js/main.890d3b71.js"
   ]
 }
