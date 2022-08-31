@@ -6,7 +6,7 @@ const Nav = ({logo}) => {
     <div className="container-fluid position-relative nav-bar p-0">
         <div className="container-lg position-relative p-0 px-lg-3" style={{zIndex: 9}}>
             <nav className="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
-                <a href="index.html" className="navbar-brand d-block d-lg-none">
+                <a href="/" className="navbar-brand d-block d-lg-none">
                     <h1 className="m-0 display-4 text-primary"><span className="text-secondary">i</span>CREAM</h1>
                 </a>
                 <button type="button" className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -19,7 +19,7 @@ const Nav = ({logo}) => {
                         <a href="#product" className="nav-item nav-link">Product</a>
                     </div>
                     <a href="/" className="navbar-brand mx-5 d-none d-lg-block">
-                        <img src={logo} />
+                        <img src={logo} alt="pie susu tia" />
                         {/* <h1 className="m-0 display-4 text-primary"><span className="text-secondary">i</span>CREAM</h1> */}
                     </a>
                     <div className="navbar-nav mr-auto py-0">

@@ -9,14 +9,14 @@ const Footer = ({logo}) => {
             <div className="row">
                 <div className="col-12 mb-4">
                     <a href="index.html" className="navbar-brand m-0">
-                        <img src={logo} />
+                        <img src={logo} alt="pie susu tia" />
                     </a>
                 </div>
                 <div className="col-12 mb-4">
-                    <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-twitter"></i></a>
-                    <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a className="btn btn-outline-secondary btn-social mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
-                    <a className="btn btn-outline-secondary btn-social" href="#"><i className="fab fa-instagram"></i></a>
+                    <a className="btn btn-outline-secondary btn-social mr-2" href="/"><i className="fab fa-twitter"></i></a>
+                    <a className="btn btn-outline-secondary btn-social mr-2" href="/"><i className="fab fa-facebook-f"></i></a>
+                    <a className="btn btn-outline-secondary btn-social mr-2" href="/"><i className="fab fa-linkedin-in"></i></a>
+                    <a className="btn btn-outline-secondary btn-social" href="/"><i className="fab fa-instagram"></i></a>
                 </div>
                 <div className="col-12 mt-2 mb-4">
                     <div className="row">
@@ -33,7 +33,7 @@ const Footer = ({logo}) => {
                     </div>
                 </div>
                 <div className="col-12">
-                    <p className="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                    <p className="m-0">&copy; <a href="/">Domain</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
                     </p>
                 </div>
             </div>

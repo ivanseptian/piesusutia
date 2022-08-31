@@ -21,7 +21,7 @@ const ToTopButton = () => {
   
   window.addEventListener('scroll', toggleVisible);
   return (
-    <a href="#" className="btn btn-secondary px-2 back-to-top" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}><i className="fa fa-angle-double-up"></i></a>
+    <a href="/" className="btn btn-secondary px-2 back-to-top" onClick={scrollToTop} style={{display: visible ? 'inline' : 'none'}}><i className="fa fa-angle-double-up"></i></a>
   )
 }
 

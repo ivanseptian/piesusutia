@@ -21,12 +21,12 @@ const Home = ({products, services}) => {
         <div id="header-carousel" className="carousel slide" data-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="w-100" src={Carousel} alt="Image" />
+                    <img className="w-100" src={Carousel} alt="slider pie" />
                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3" style={{maxWidth: "900px"}}>
                             <h4 className="text-white text-uppercase mb-md-3">Traditional & Delicious</h4>
                             <h1 className="display-3 text-white mb-md-4">Traditional Ice Cream Since 1950</h1>
-                            <a href="" className="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
+                            <a href="/" className="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Home = ({products, services}) => {
               </div>
               <div className="col-lg-4" style={{minHeight: "400px"}}>
                   <div className="position-relative h-100 rounded overflow-hidden">
-                      <img className="position-absolute w-100 h-100" src={about} style={{objectFit: "cover"}} />
+                      <img className="position-absolute w-100 h-100" src={about} style={{objectFit: "cover"}} alt="pie susu tia" />
                   </div>
               </div>
               <div className="col-lg-4 py-5">
@@ -65,7 +65,7 @@ const Home = ({products, services}) => {
         <div className="row bg-primary m-0">
             <div className="col-md-6 px-0" style={{minHeight: "500px"}}>
                 <div className="position-relative h-100">
-                    <img className="position-absolute w-100 h-100" src={promotion} style={{objectFit: "cover"}} />
+                    <img className="position-absolute w-100 h-100" src={promotion} style={{objectFit: "cover"}} alt="pie susu tia" />
                     <button type="button" className="btn-play" data-toggle="modal"
                         data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
                         <span></span>
@@ -81,7 +81,7 @@ const Home = ({products, services}) => {
                     <h3 className="font-weight-bold text-white mt-3 mb-4">Pie Susu Original</h3>
                     <p className="text-white mb-4">Lorem justo clita dolor ipsum ut sed eos, ipsum et dolor kasd sit ea
                         justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum</p>
-                    <a href="" className="btn btn-secondary py-3 px-5 mt-2">Order Now</a>
+                    <a href="/" className="btn btn-secondary py-3 px-5 mt-2">Order Now</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@ const Home = ({products, services}) => {
                         <span aria-hidden="true">&times;</span>
                     </button>        
                     <div className="embed-responsive embed-responsive-16by9">
-                        <iframe className="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        <iframe className="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay" title="video pie"></iframe>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@ const Home = ({products, services}) => {
         <div className="row m-0 portfolio-container">
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio1} alt="" />
+                    <img className="img-fluid w-100" src={portofolio1} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio1} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
@@ -149,7 +149,7 @@ const Home = ({products, services}) => {
             </div>
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio2} alt="" />
+                    <img className="img-fluid w-100" src={portofolio2} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio2} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
@@ -157,7 +157,7 @@ const Home = ({products, services}) => {
             </div>
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio3} alt="" />
+                    <img className="img-fluid w-100" src={portofolio3} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio3} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
@@ -165,7 +165,7 @@ const Home = ({products, services}) => {
             </div>
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio4} alt="" />
+                    <img className="img-fluid w-100" src={portofolio4} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio4} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
@@ -173,7 +173,7 @@ const Home = ({products, services}) => {
             </div>
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio5} alt="" />
+                    <img className="img-fluid w-100" src={portofolio5} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio5} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
@@ -181,7 +181,7 @@ const Home = ({products, services}) => {
             </div>
             <div className="col-lg-4 col-md-6 p-0 portfolio-item">
                 <div className="position-relative overflow-hidden">
-                    <img className="img-fluid w-100" src={portofolio6} alt="" />
+                    <img className="img-fluid w-100" src={portofolio6} alt="pie susu tia" />
                     <a className="portfolio-btn" href={portofolio6} data-lightbox="portfolio">
                         <i className="fa fa-plus text-primary" style={{fontSize: "60px"}}></i>
                     </a>
